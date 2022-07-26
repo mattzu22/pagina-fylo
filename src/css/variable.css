@@ -1,0 +1,14 @@
+:root{
+    --bg-principal: hsl(218, 28%, 13%);
+    --bg-footer: hsl(216, 53%, 9%);
+    --bg-secundaria:hsl(219, 30%, 18%);
+    --bg-started:hsl(217, 28%, 15%);
+
+    --color-blue:hsl(198, 60%, 50%);
+    --color-cyan:hsl(176, 68%, 64%);
+
+    --font-secundaria:'Raleway', sans-serif;
+    --font-primaria:'Open Sans', sans-serif;
+
+
+}
