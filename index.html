@@ -24,17 +24,18 @@
     <header class="menu">
         <div class="menu-container">
             <img class="logo" src="src/image/logo.svg" alt="logo">
-
-            <ul class="navigation">
-                <li><a href="#">Feature</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Sing in</a></li>
-            </ul>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Sing in</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
     <section class="description-service">
-        <img src="src/image/illustration-intro.png" alt="imagem da descrição do serviço">
+        <img class="img-intro" src="src/image/illustration-intro.png" alt="imagem da descrição do serviço">
 
         <div class="info">
             <h2 class="title">All your files in one secure location, accessible anywhere.</h2>
@@ -173,60 +174,65 @@
                 It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
                 questions, our support team would be happy to help you.
             </p>
+            <div class="email-button">
 
-            <input class="email" type="text" name="email" placeholder="email@example.com">
+                <input class="email" type="text" name="email" placeholder="email@example.com">
 
-            <button class="btn">Get Started For Free</button>
-
+                <button class="btn-enviar">Get Started For Free</button>
+            </div>   
         </div>
     </section>
 
     <footer class="footer">
 
-        <div class="text-logo">
-            <img class="logo-footer" src="src/image/logo.svg" alt="logo">
+        <div class="container-footer">
 
-            <p class="info">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore
-                et dolore magna aliqua
-            </p>
-        </div>
+            <div class="text-logo">
+                <img class="logo-footer" src="src/image/logo.svg" alt="logo">
 
-        <address class="address">
-            <p class="telefone">+1-543-123-4567</p>
-            <p class="email">example@fylo.com</p>
-        </address>
+                <p class="info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua
+                </p>
+            </div>
 
-        <div class="menu-footer">
-            <ul class="left">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Press</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
+            <address class="address">
+                <p class="telefone">+1-543-123-4567</p>
+                <p class="email">example@fylo.com</p>
+            </address>
 
-            <ul class="right">
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
-            </ul>
-        </div>
+            <div class="menu-footer">
+                <ul class="left">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
 
-        <div class="social">
-            <a href="#">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
+                <ul class="right">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+
+            <div class="social">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            
         </div>
 
     </footer>
 
 </body>
-
-</html>
+    <script src="./src/js/index.js"></script>
+</html> 

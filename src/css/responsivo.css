@@ -1,3 +1,130 @@
-@media(max-width: 900px){
+@media(max-width: 1050px){
+    .footer .social{
+        margin: 100px auto 0;
+    }
+}
+
+@media(max-width: 899px){
+    .services .service .description{
+        width: 350px;
+    }
+
+    .service.left{
+        margin-right: 25px;
+    }
     
+    .service.right{
+        margin-left: 25px;
+    }
+
+    .footer .container-footer{
+        flex-direction: column;
+    }
+
+    .footer .menu-footer{
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 70px;
+    }
+
+    .address,
+    .menu-footer,
+    .social{
+        margin-top: 25px;
+    }
+}
+
+@media(max-width:800px){
+    .description-operation{
+        flex-direction: column;
+    }
+
+    .comments{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:750px){
+    .services .service .description{
+        width: initial;
+    }
+
+    .service.left{
+        margin-right: initial;
+    }
+    
+    .service.right{
+        margin-left: initial;
+    }
+}
+
+@media(max-width:730px){
+    .menu .menu-container{
+        padding: 65px 15px;
+    }
+
+    .menu .navigation ul{
+        gap: 30px;
+    }
+
+    .description-operation .info .title{
+        font-size: 2.8rem;
+        line-height: initial;
+    }
+    
+}
+
+ @media(max-width:670px){
+    .started-free .email{
+       margin-bottom: 25px;
+       width: 100%;
+    }
+    
+    .started-free .btn{
+      margin-left: initial;
+      width: 100%;
+    }
+} 
+
+@media(max-width:500px){
+    .menu .menu-container .logo{
+        width: 100px;
+    }
+
+    .description-service .info .title{
+        font-size: 3rem;
+        line-height: 4.3rem;
+    }
+
+    .description-service .info p{
+        font-size: 1.8rem;
+    }
+
+    .description-operation{
+        padding: 0 15px;
+    }
+
+    .description-operation .info .title{
+        font-size: 2.7rem;
+        max-width: 100%;
+    }
+
+    .started-free .container-started-free{
+        padding: 40px;
+    }
+
+    .started-free .title{
+        font-size: 2rem;
+    }
+
+}
+
+@media(max-width:400px){
+    .menu .navigation ul{
+        gap: 15px;
+    }
+
+    .services{
+        padding: 170px 20px;
+    }
 }
